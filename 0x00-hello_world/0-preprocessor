@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Variable holding the C file name
+CFILE="$1"
+
+# Run the C file through the preprocessor
+gcc -E $CFILE -o c
+
