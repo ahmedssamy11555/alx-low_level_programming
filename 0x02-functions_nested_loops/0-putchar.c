@@ -1,12 +1,47 @@
-#include <stdio.h>
+#include <unistd.h>
+#include "main.h"
 
-int function_that_prints_putcahr();
-int main(void){
-    function_that_prints_putcahr();
-    return 0;
+/**
+ * main - Entry point
+ *
+ * Description: prints **_putchar**, followed by a new line
+ *
+ * Return: 0
+ */
+
+int main(void)
+{
+function_that_prints_putcahr();
+
+return (0);
 }
 
-int function_that_prints_putcahr(){
-    printf("_putchar\n");
-    return 0;
+/**
+ * function_that_prints_putcahr - function that prints _putchar
+ * Description: prints **_putchar**, followed by a new line
+ * Return: 0
+ */
+
+int function_that_prints_putcahr(void)
+{
+char putchar_word[] = "_putchar\n";
+
+for (int i = 0; i < sizeof(putchar_word); i++)
+{
+_putchar(putchar_word[i]);
+}
+return (0);
+}
+
+/**
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+
+int _putchar(char c)
+{
+return (write(1, &c, 1));
 }
