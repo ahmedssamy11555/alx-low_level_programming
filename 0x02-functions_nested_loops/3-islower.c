@@ -5,7 +5,7 @@
  *
  * Description: prints **only lower case alphabet**
  *@c : integar parameter
- * Return: 0
+ * Return: 1 if lower case and 0 if not
  */
 
 int _islower(int c)
