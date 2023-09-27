@@ -24,11 +24,12 @@ return (0);
 
 int function_that_prints_putcahr(void)
 {
-char putchar_word[] = "_putchar\n";
+char putchar_word[] = "_putchar";
 int i;
 for (i = 0; i < (int)sizeof(putchar_word); i++)
 {
 _putchar(putchar_word[i]);
 }
+_putchar("\n");
 return (0);
 }
