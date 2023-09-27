@@ -16,7 +16,10 @@ return (0);
 }
 else
 {
+if (c >= 'a' && c <= 'z')
+{
 return (1);
+}
 }
 }
 
