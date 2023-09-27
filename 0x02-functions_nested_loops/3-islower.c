@@ -4,15 +4,15 @@
  * _islower - prints only lower case alphabet
  *
  * Description: prints **only lower case alphabet**
- *
+ *@c : integar parameter
  * Return: 0
  */
 
-int _islower(void)
+int _islower(int c)
 {
-for (i = 'a'; i <= 'z'; i++)
+for (c = 'a'; c <= 'z'; c++)
 {
-if (i >= 'A' && i <= 'Z')
+if (c >= 'A' && c <= 'Z')
 {
 return (1);
 }
