@@ -12,7 +12,7 @@
 int main(void)
 {
 function_that_prints_putcahr();
-
+print_alphabet();
 return (0);
 }
 

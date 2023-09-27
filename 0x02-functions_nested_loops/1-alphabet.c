@@ -1,20 +1,6 @@
 #include <unistd.h>
 #include "main.h"
 /**
- * main - Entry point
- *
- * Description: prints **_putchar**, followed by a new line
- *
- * Return: 0
- */
-
-int main(void)
-{
-print_alphabet();
-
-return (0);
-}
-/**
  * print_alphabet - prints the alphabet
  *
  * Description: prints **alphabet in lower case**, followed by a new line
