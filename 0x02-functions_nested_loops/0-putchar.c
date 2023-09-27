@@ -30,6 +30,6 @@ for (i = 0; i < (int)sizeof(putchar_word); i++)
 {
 _putchar(putchar_word[i]);
 }
-_putchar("\n");
+_putchar('\n');
 return (0);
 }
