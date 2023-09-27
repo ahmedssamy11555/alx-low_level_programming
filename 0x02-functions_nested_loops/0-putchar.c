@@ -26,7 +26,7 @@ int function_that_prints_putcahr(void)
 {
 char putchar_word[] = "_putchar";
 int i;
-for (i = 0; i < (int)sizeof(putchar_word); i++)
+for (i = 0; i < 9; i++)
 {
 _putchar(putchar_word[i]);
 }
