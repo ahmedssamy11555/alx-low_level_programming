@@ -8,8 +8,8 @@
  * Return: Returns the value of the last digit
  */
 
-int print_last_digit(int c);
+int print_last_digit(int c)
 {
 _putchar(c % 10);
 return (c % 10);
-}
+};
