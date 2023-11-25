@@ -1,4 +1,3 @@
-#include "main.h"
 /**
 * _isupper - checks for uppercase character.
 *
@@ -19,4 +18,5 @@ else if (c >= 97 && c <= 122)
 {
 return (0);
 }
+return (0);
 }
