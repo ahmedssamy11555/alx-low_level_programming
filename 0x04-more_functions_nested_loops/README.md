@@ -14,3 +14,5 @@ All of the following files are C Files:
 | Filename | Description |
 | -------- | ----------- |
 | `0-isupper` |  **checks for uppercase character.**|
+| `1-isdigit` |  **checks for a digit (0 through 9).**|
+| `2-mul.c` |  **function that multiplies two integers.**|
