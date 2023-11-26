@@ -4,7 +4,7 @@
  * print_square -  function that prints a square, followed by a new line.
  *
  * Description:  function that prints a square, followed by a new line.
- *@size : integer parameter
+ *@size: integer parameter
  * Return: void
  */
 
