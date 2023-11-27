@@ -9,7 +9,7 @@ int main(void)
 {
     char *str;
 
-    str = "";
-    _puts(str);
+    str = "I";
+    print_rev(str);
     return (0);
 }
