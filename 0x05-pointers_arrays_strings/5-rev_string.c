@@ -11,7 +11,8 @@ void rev_string(char *s)
 int start;
 int i;
 int lenght;
-char newStr[];
+char str[lenght];
+*s = str;
 if (*s == '\0')
 {
 lenght = 0;
@@ -26,8 +27,7 @@ if (i == -1)
 {
 break;
 }
-newStr[lenght] = s[i];
-*s = newStr;
+str += s[i];
 }
 _putchar('\n');
 }
