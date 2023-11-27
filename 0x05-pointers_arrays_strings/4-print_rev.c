@@ -11,6 +11,10 @@ void print_rev(char *s)
 int start;
 int i;
 int lenght;
+if (*s == '\0')
+{
+lenght = 0;
+}
 for (start = 0; s[start] != '\0'; start++)
 {
 lenght = start;
