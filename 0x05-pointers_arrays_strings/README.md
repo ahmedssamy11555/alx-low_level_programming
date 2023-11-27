@@ -17,3 +17,6 @@ All of the following files are C Files:
 | `swap_int` |  **function that swaps the values of two integers.**|
 | `_strlen` |  **function that returns the length of a string.**|
 | `_puts` |  **prints a string, followed by a new line, to stdout.**|
+| `print_rev` |  **prints a string, in reverse, followed by a new line.**|
+| `rev_string` |  **prints a string, in reverse, followed by a new line.**|
+| `puts2` |  **prints every other character of a string,**|
