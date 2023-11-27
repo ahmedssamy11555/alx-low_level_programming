@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_rev - prints a string, in reverse, followed by a new line.
+ * rev_string - prints a string, in reverse, followed by a new line.
  *
  *Description:prints a string, in reverse, followed by a new line.
  *@s: char parameter
@@ -8,26 +8,20 @@
 
 void rev_string(char *s)
 {
-int start;
-int i;
-int lenght;
-char str[lenght];
-*s = str;
+int start, end, temp;
+int length = 0;
 if (*s == '\0')
 {
-lenght = 0;
+return;
 }
-for (start = 0; s[start] != '\0'; start++)
+while (s[length] != '\0')
 {
-lenght = start;
+length++;
 }
-for (i = lenght ; i <= lenght ; i--)
+for (start = 0, end = length - 1; start < end; start++, end--)
 {
-if (i == -1)
-{
-break;
+temp = s[start];
+s[start] = s[end];
+s[end] = temp;
 }
-str += s[i];
-}
-_putchar('\n');
 }
