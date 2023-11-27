@@ -10,6 +10,11 @@ int _strlen(char *s)
 {
 int start;
 int result;
+
+if (*s == '\0')
+{
+return (0);
+}
 for (start = 0; s[start] != '\0'; start++)
 {
 result =  start;
