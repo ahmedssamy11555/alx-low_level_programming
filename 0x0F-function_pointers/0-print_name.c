@@ -1,20 +1,13 @@
-
-#include "main.h"
+#include "function_pointers.h"
+#include <stdlib.h>
 /**
- * _strncat - function appends the src string to
- *the dest string, overwriting the terminating null byte
- *(\0) at the end of dest,
- *and then adds a terminating null byte
- *string pointed to by src, including the terminating
- *null byte (\0), to the buffer pointed to by dest.
- * @name: char parameter
- *Return: a pointer to the resulting string dest
+ * print_name - prints the name
+ * @name: name
+ * @f: function
  */
-
-void print_name(char *name, void (*f)(char *)){
-
-    while (*name != '\0') {
-        f(name);
-        name++;
-    }
+void print_name(char *name, void (*f)(char *))
+{
+	if (name == NULL || f == NULL)
+		return;
+	f(name);
 }
