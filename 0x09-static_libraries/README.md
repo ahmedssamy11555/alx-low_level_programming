@@ -7,26 +7,18 @@
 	<li>Basic usage of <code>ar</code>, <code>ranlib</code>, <code>nm</code></li>
 </ol>
 
-## RESOURCES:
-
- <ol>
-	<li><a href="/rltoken/4Dki8HiSS6QBDwsznMbXFA" title='What Is A "C" Library? What Is It Good For?' target="_blank">What Is A “C” Library? What Is It Good For?</a> </li>
-	<li><a href="/rltoken/4Dki8HiSS6QBDwsznMbXFA" title='Creating A Static "C" Library Using "ar" and "ranlib"' target="_blank">Creating A Static “C” Library Using “ar” and “ranlib”</a> </li>
-	<li><a href="/rltoken/4Dki8HiSS6QBDwsznMbXFA" title='Using A "C" Library In A Program' target="_blank">Using A “C” Library In A Program</a> </li>
-	<li><a href="/rltoken/wC9HCOvJwa_Co1nZuL4QMA" title="What is difference between Dynamic and Static library(Static and Dynamic linking)" target="_blank">What is difference between Dynamic and Static library(Static and Dynamic linking)</a> (<em>stop at 4:44</em>)</li>
-</ol>
 
 ## INTRODUCTION TO FILES :closed_book::closed_book::closed_book::
 
-0.	[**libholberton.a**:](#libholbertona) Create the static library <code>libholberton.a</code> containing all the functions listed belowIf you haven’t coded all of the above functions create empty ones with the right prototype.<br>
+0.	[**libmy.a**:](#libmya) Create the static library <code>libmy.a</code> containing all the functions listed belowIf you haven’t coded all of the above functions create empty ones with the right prototype.<br>
 Don’t forget to push your <code>holberton.h</code> file to your repository. It should at least contain all the prototypes of the above functions.
 1.	[**create_static_lib.sh**:](#create_static_libsh) Create a script called <code>create_static_lib.sh</code> that creates a static library called <code>liball.a</code> from all the <code>.c</code> files that are in the current directory.
 
 ## FILES :bookmark_tabs::bookmark_tabs::bookmark_tabs::
 
-### libholberton.a
+### libmy.a
 
-**<p>Create the static library <code>libholberton.a</code> containing all the functions listed below</p><p>If you haven’t coded all of the above functions create empty ones with the right prototype.<br>
+**<p>Create the static library <code>libmy.a</code> containing all the functions listed below</p><p>If you haven’t coded all of the above functions create empty ones with the right prototype.<br>
 Don’t forget to push your <code>holberton.h</code> file to your repository. It should at least contain all the prototypes of the above functions.</p>**
 
 <pre><code>int _putchar(char c);
